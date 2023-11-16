@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: skyblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+.nav-link {
+  font-size: 16px;
+}
+
+.detail {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+span {
+  color: yellow;
+}
+
+.detail img {
+  max-width: 20%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.carousel-item img {
+  max-width: 400px;
+  height: 400px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease;
+  border: 2px solid black;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.fsection {
+  margin: 30px;
+}
+.card img {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease;
+  border: 2px solid black;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 490px) {
+  .navbar-brand {
+    font-size: 14px;
+  }
+  .top {
+    font-size: 18px;
+  }
+  .m1 {
+    font-size: 14px;
+  }
+  .card img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+    border: 2px solid black;
+  }
+  .card h5 {
+    font-size: 12px;
+  }
+  .fsection {
+    margin: 0;
+  }
+  .carousel-item img {
+    max-width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 2000px) {
+  .navigation {
+    margin-left: 20%;
+  }
+}
